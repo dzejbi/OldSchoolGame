@@ -23,7 +23,7 @@ public class Monster {
     private int yPosition = 0;
     private boolean alive = true;
     private int action;
-    private Random generator = new Random();
+    static public Random generator = new Random();
     private int speciality = 50;
     private int maxXPosition = 10;
     private int minXPosition = 0;
@@ -129,8 +129,8 @@ public class Monster {
         }
     }
 
-    public Monster(int attack, int health, int movement, String name, int skill_at_attack,int skill_at_magic,int speciality, boolean Hero) {
-        this.attack = attack;
+    public Monster( int health, int movement, String name, int skill_at_attack,int skill_at_magic,int speciality, boolean Hero) {
+        this.attack = skill_at_attack;
         this.health = health;
         this.health_max=health;
         this.health_regeneration=health/10;
@@ -182,10 +182,10 @@ public class Monster {
     	int tryspellenemy=1, tryspellattacker=1;
     	System.out.println(this.name+" ambushed "+enemy.name );
     	while(enemy.alive==true && this.alive==true){
-    		this.action=this.generator.nextInt(100);
-    		enemy.action=this.generator.nextInt(100);
+    		this.action=generator.nextInt(100);
+    		enemy.action=generator.nextInt(100);
     		if(this.action<speciality){
-    			if(this.skill_at_attack<generator.nextInt(100)){
+    			if(this.skill_at_attack>generator.nextInt(100)){
     				enemy.health-=this.critical;
     				demagecountattacker+=this.critical;
     				tryrateattacker++;
@@ -200,24 +200,24 @@ public class Monster {
     			}
     		}
     			else {
-    				if(this.skill_at_magic<generator.nextInt(100)){
-        				enemy.health-=this.attack;
+    				if(this.skill_at_magic>generator.nextInt(100)){
+        				enemy.health-=this.lifesuck;
         				this.health+=this.lifesuck;
-        				spellcountattacker=this.attack+this.lifesuck;
+        				spellcountattacker+=this.lifesuck*2;
         				tryspellattacker++;
         				successpellattacker++;
         				System.out.println(this.name+" uses lifesuck, it's super effective    "+this.name+" "+this.health+"  "+enemy.name+" "+enemy.health );
         			}
         			else{
-        				enemy.health-=this.lifesuck;
-        				spellcountattacker+=this.lifesuck;
+        				enemy.health-=this.attack;
+        				spellcountattacker+=this.attack;
         				tryspellattacker++;
         				System.out.println(this.name+" uses lifesuck, but it's ineffective    "+this.name+" "+this.health+"  "+enemy.name+" "+enemy.health );
         			}
     			}
     		
-    		if(enemy.action==0){
-    			if(this.skill_at_attack<generator.nextInt(100)){
+    		if(enemy.action<enemy.speciality){
+    			if(enemy.skill_at_attack>generator.nextInt(100)){
     				this.health-=enemy.critical;
     				demagecountenemy+=enemy.critical;
     				tryrateenemy++;
@@ -232,17 +232,17 @@ public class Monster {
     			}
     		}
     			else {
-    				if(this.skill_at_magic<generator.nextInt(100)){
-    					this.health-=enemy.attack;
+    				if(enemy.skill_at_magic>generator.nextInt(100)){
+    					this.health-=enemy.lifesuck;
         				enemy.health+=enemy.lifesuck;
-        				spellcountenemy=enemy.attack+enemy.lifesuck;
+        				spellcountenemy=enemy.lifesuck+enemy.lifesuck;
         				tryspellenemy++;
         				successpellenemy++;
         			System.out.println(enemy.name+" uses lifesuck, it's super effective  "+this.name+" "+this.health+"  "+enemy.name+" "+enemy.health );
         			}
         			else{
-        				this.health-=enemy.lifesuck;
-        				spellcountenemy=enemy.lifesuck;
+        				this.health-=enemy.attack;
+        				spellcountenemy=enemy.attack;
         				tryspellenemy++;
         				System.out.println(enemy.name+" uses lifesuck, but it's ineffective   "+this.name+" "+this.health+"  "+enemy.name+" "+enemy.health );
         			}
