@@ -56,14 +56,19 @@ public class Main {
         Monsters [1] = new Monster(10,150,1,"Paul");
         Monsters [2] = new Monster(20,100,1,"George");
         Monsters [3] = new Monster(5,200,2,"James");
-        for(int n=1;n<players+1;n++)
-        	Monsters [3+n] = Players[n-1];
+
+        for(int n=1;n<players+1;n++) {
+            Monsters[3 + n] = Players[n - 1];
+        }
+
         Level_1.setMyMonsters(Monsters);
         Level_1.redrawBoard();
+
         for(int i =0;i<1000;i++){
             for(int j=0;j<4+players;j++) {
                 Monsters[j].search();
             }
+            Level_1.redrawBoard();
         }
         Level_1.redrawBoard();
     }
