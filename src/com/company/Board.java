@@ -14,7 +14,35 @@ public class Board {
         }
     }
 
+    public String redrawBoard_s(){
+
+        StringBuilder mapString = new StringBuilder();
+
+        for(int k=0;k<30;k++){
+            mapString.append("-");
+        }
+
+        mapString.append("\n");
+
+        for (int i=0; i<battleBoard.length;i++){
+            for (int j=0; j<battleBoard[i].length;j++){
+                mapString.append("|" + battleBoard[i][j] + "|");
+            }
+            mapString.append("\n");
+        }
+
+        for(int k=0;k<30;k++){
+            mapString.append("-");
+        }
+
+        mapString.append("\n");
+
+        return mapString.toString();
+
+    }
+
     public  void redrawBoard(){
+
         for(int k=0;k<30;k++){
             System.out.print('-');
         }
