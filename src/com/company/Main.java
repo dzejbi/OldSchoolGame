@@ -34,123 +34,119 @@ public class Main extends JFrame implements  Runnable {
         int action =1;
 
         label.setText("<html><center>Welcome into my castle dr. Hellsing,</center> create yo playaa (all stats should add up to 170. You can create up to 4 players)</html>");
-
         textPane.setText(stats);
-        while (create) {
 
-            switch (action) {
-                case 1:
-                    if (TextListener.pressed) {
-                        TextListener.pressed = false;
-                        Stats.name = tListen.string_temp;
-                        stats += tListen.string_temp;
-                        textPane.setText(stats);
-                        action++;
-                    } else {
-                        main.run();
-                    }
-                    break;
-                case 2:
-                    if (TextListener.pressed) {
-                        TextListener.pressed = false;
-                        Stats.health = Integer.parseInt(tListen.string_temp);
-                        stats += "\nHealth: " + tListen.string_temp;
-                        textPane.setText(stats);
-                        action++;
-                    } else {
-                        textPane.setText(stats + "\nHealth: ");
-                        main.run();
-                    }
-                    break;
-                case 3:
-                    if (TextListener.pressed) {
-                        TextListener.pressed = false;
-                        Stats.skill_at_attack = Integer.parseInt(tListen.string_temp);
-                        stats += "\nFighting skill: " + tListen.string_temp;
-                        textPane.setText(stats);
-                        action++;
-                    } else {
-                        textPane.setText(stats + "\nFighting skill: ");
-                        main.run();
-                    }
-                    break;
-                case 4:
-                    if (TextListener.pressed) {
-                        TextListener.pressed = false;
-                        Stats.skill_at_magic = Integer.parseInt(tListen.string_temp);
-                        stats += "\nMagic skill: " + tListen.string_temp;
-                        textPane.setText(stats);
-                        action++;
-                    } else {
-                        textPane.setText(stats + "\nMagic skill: ");
-                        main.run();
-                    }
-                    break;
-                case 5:
-                    System.out.println(Stats.health +" "+ Stats.skill_at_attack +" "+ Stats.skill_at_magic);
-                    if (Stats.health + Stats.skill_at_attack + Stats.skill_at_magic > 170) {
-                        textPane.setText("Wrong amount of skillpoints, create again ");
-                        main.run();
-                        main.run();
-                        stats = "Name :";
-                        textPane.setText(stats);
-                        action = 1;
-                    }
-                    else{
-                        action++;
-                    }
-                    break;
-                case 6:
-                    if (TextListener.pressed) {
-                        TextListener.pressed = false;
-                        Stats.specialization = Integer.parseInt(tListen.string_temp);
-                        if(Stats.specialization < 50){
-                            stats += "\nSpecialization: Blood Mage ! ";
-                            textPane.setText(stats);
-                        }
-                        else{
-                            stats += "\nSpecialization: Warrior ! ";
-                            textPane.setText(stats);
-                        }
-                        action++;
-                    } else {
-                        textPane.setText(stats + "\nLast question: fighting style of your character (30-70, higher number - melee weapon specialist, lesser number - blood mage):  ");
-                        main.run();
-                    }
-                    break;
-                case 7:
 
-                    Players[Stats.players - 1] = new Monster(Stats.health, 2, Stats.name, Stats.skill_at_attack, Stats.skill_at_magic, Stats.specialization, true);
-                    stats += "\n\n GOOD LUCK  "+ Stats.name.toUpperCase();
+        while (create) switch (action) {
+            case 1:
+                if (TextListener.pressed) {
+                    TextListener.pressed = false;
+                    Stats.name = tListen.string_temp;
+                    stats += tListen.string_temp;
                     textPane.setText(stats);
                     action++;
+                } else {
                     main.run();
-                    break;
-
-                case 8:
-
-                    if (TextListener.pressed) {
-                        TextListener.pressed = false;
-                        if(tListen.string_temp.equals("t")) {
-                            stats = "Name: ";
-                            textPane.setText(stats);
-                            action = 1;
-                        }
-                        else{
-                            textPane.setText("START !!!");
-                            label.setText("<html><center>Let's get ready to rumble !</html>");
-                            action++;
-                            main.run();
-                        }
+                }
+                break;
+            case 2:
+                if (TextListener.pressed) {
+                    TextListener.pressed = false;
+                    Stats.health = Integer.parseInt(tListen.string_temp);
+                    stats += "\nHealth: " + tListen.string_temp;
+                    textPane.setText(stats);
+                    action++;
+                } else {
+                    textPane.setText(stats + "\nHealth: ");
+                    main.run();
+                }
+                break;
+            case 3:
+                if (TextListener.pressed) {
+                    TextListener.pressed = false;
+                    Stats.skill_at_attack = Integer.parseInt(tListen.string_temp);
+                    stats += "\nFighting skill: " + tListen.string_temp;
+                    textPane.setText(stats);
+                    action++;
+                } else {
+                    textPane.setText(stats + "\nFighting skill: ");
+                    main.run();
+                }
+                break;
+            case 4:
+                if (TextListener.pressed) {
+                    TextListener.pressed = false;
+                    Stats.skill_at_magic = Integer.parseInt(tListen.string_temp);
+                    stats += "\nMagic skill: " + tListen.string_temp;
+                    textPane.setText(stats);
+                    action++;
+                } else {
+                    textPane.setText(stats + "\nMagic skill: ");
+                    main.run();
+                }
+                break;
+            case 5:
+                System.out.println(Stats.health + " " + Stats.skill_at_attack + " " + Stats.skill_at_magic);
+                if (Stats.health + Stats.skill_at_attack + Stats.skill_at_magic > 170) {
+                    textPane.setText("Wrong amount of skillpoints, create again ");
+                    main.run(3000);
+                    stats = "Name :";
+                    textPane.setText(stats);
+                    action = 1;
+                } else {
+                    action++;
+                }
+                break;
+            case 6:
+                if (TextListener.pressed) {
+                    TextListener.pressed = false;
+                    Stats.specialization = Integer.parseInt(tListen.string_temp);
+                    if (Stats.specialization < 50) {
+                        stats += "\nSpecialization: Blood Mage ! ";
+                        textPane.setText(stats);
                     } else {
-                        textPane.setText(stats + "\nCreat another character? (t - yes, anything alse-no) ");
-                        main.run();
+                        stats += "\nSpecialization: Warrior ! ";
+                        textPane.setText(stats);
                     }
-                    break;
-                case 9:
-                    create=false;
-                    break;
-            }
+                    action++;
+                } else {
+                    textPane.setText(stats + "\nLast question: fighting style of your character (30-70, higher number - melee weapon specialist, lesser number - blood mage):  ");
+                    main.run();
+                }
+                break;
+            case 7:
+                System.out.println(Stats.players);
+                Players[Stats.players ] = new Monster(Stats.health, 2, Stats.name, Stats.skill_at_attack, Stats.skill_at_magic, Stats.specialization, true);
+                Stats.players++;
+                System.out.println(Stats.players+"*");
+                stats += "\n\n GOOD LUCK  " + Stats.name.toUpperCase();
+                textPane.setText(stats);
+                action++;
+                main.run(1000);
+                break;
+
+            case 8:
+
+                if (TextListener.pressed) {
+                    TextListener.pressed = false;
+                    if (tListen.string_temp.equals("t")) {
+                        stats = "Name: ";
+                        textPane.setText(stats);
+                        action = 1;
+                    } else {
+                        textPane.setText("START !!!");
+                        label.setText("<html><center>Let's get ready to rumble !</html>");
+                        action++;
+                        main.run(1000);
+                    }
+                } else {
+                    textPane.setText(stats + "\nCreat another character? (t - yes, anything alse-no) ");
+                    main.run();
+                }
+                break;
+            case 9:
+                create = false;
+                break;
         }
 
         Monster Monsters[] = new Monster[4 + Stats.players];
@@ -170,8 +166,10 @@ public class Main extends JFrame implements  Runnable {
         for (int i = 0; i < 1000; i++) {
             for (int j = 0; j < 4 + Stats.players; j++) {
                 Monsters[j].search();
+                textPane.setText(Level_1.redrawBoard_s());
+                main.run();
             }
-            textPane.setText(Level_1.redrawBoard_s());
+
         }
         textPane.setText(Level_1.redrawBoard_s());
     }
@@ -221,14 +219,19 @@ public class Main extends JFrame implements  Runnable {
         textField.requestFocus(true);
 
     }
-
-
     @Override
     public void run() {
         try {
-            Thread.sleep(1000);
+            Thread.sleep(100);
         }
         catch(InterruptedException e){
         }
     }
+    public void run(int waitMs) {
+        try {
+            Thread.sleep(waitMs);
+        } catch (InterruptedException e) {
+        }
+    }
+
 }

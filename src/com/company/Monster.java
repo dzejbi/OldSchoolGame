@@ -109,11 +109,14 @@ public class Monster {
 
             if (myBoard.battleBoard[xPosition][yPosition]!='*'){
                 char enemy = myBoard.battleBoard[xPosition][yPosition];
+                System.out.println(Stats.players+"**");
                 for (int o=0;o<myBoard.myMonsters.length;o++) {
+                    System.out.println(Stats.players+"***");
                     if (myBoard.myMonsters[o].charName == enemy) {
+                        System.out.println(Stats.players+"****");
                         fight(myBoard.myMonsters[o]);
                     }
-                    if(this.alive==true){
+                    if(this.alive){
                         myBoard.battleBoard[xPosition][yPosition] = charName;
                     }
                     else{

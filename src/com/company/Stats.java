@@ -9,5 +9,5 @@ public class Stats {
     public static int skill_at_attack = 0;
     public static int health = 0;
     public static int specialization = 0;
-    public static int players = 1;
+    public static int players = 0;
 }
