@@ -25,39 +25,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5450902" vertical-offset="374" max-vertical-offset="3179">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
+              <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#Main#0;class#Main#0" expanded="false" />
-                <element signature="method#run#0;class#Main#0" expanded="false" />
-                <element signature="method#run#1;class#Main#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stats.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Stats.java">
+      <file leaf-file-name="writeJTextPane.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/writeJTextPane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="323">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="357">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/TextListener.java">
+      <file leaf-file-name="writeJLabel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/writeJLabel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="578">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="391">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readJTextField.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/readJTextField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playerStats.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/playerStats.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,10 +82,9 @@
       <file leaf-file-name="Monster.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Monster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1283" max-vertical-offset="6834">
-              <caret line="117" column="21" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="4446" max-vertical-offset="6868">
+              <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="docComment;class#Monster#0" expanded="false" />
                 <element signature="method#LineOfSight#0;class#Monster#0" expanded="false" />
               </folding>
@@ -79,8 +95,8 @@
       <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="708" max-vertical-offset="1207">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
               <folding>
                 <element signature="docComment;class#Board#0" expanded="false" />
                 <element signature="method#buildBattleBoard#0;class#Board#0" expanded="false" />
@@ -89,12 +105,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hero.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Hero.java">
+      <file leaf-file-name="createCharacter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/createCharacter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="323">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.20987654" vertical-offset="0" max-vertical-offset="833">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+              <folding>
+                <element signature="method#createNewCharacter#0;class#createCharacter#0" expanded="false" />
+                <element signature="method#wantToCreateAnother#0;class#createCharacter#0" expanded="false" />
+                <element signature="method#createCharacter#0;class#createCharacter#0" expanded="false" />
+                <element signature="method#getAttributes#0;class#createCharacter#0" expanded="false" />
+                <element signature="method#isSkillsPointsOverRange#0;class#createCharacter#0" expanded="false" />
+                <element signature="method#setSpecialization#0;class#createCharacter#0" expanded="false" />
+                <element signature="method#setName#0;class#createCharacter#0" expanded="false" />
+                <element signature="method#setHealth#0;class#createCharacter#0" expanded="false" />
+                <element signature="method#setAttackSkills#0;class#createCharacter#0" expanded="false" />
+                <element signature="method#setMagicSkills#0;class#createCharacter#0" expanded="false" />
+                <element signature="method#getString#0;class#createCharacter#0" expanded="false" />
+                <element signature="method#getInt#0;class#createCharacter#0" expanded="false" />
+                <element signature="method#showUpdatedStats#0;class#createCharacter#0" expanded="false" />
+                <element signature="method#waitForAction#0;class#createCharacter#0" expanded="false" />
+                <element signature="method#wait#0;class#createCharacter#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,10 +139,17 @@
         <option value="$PROJECT_DIR$/src/com/company/Hero.java" />
         <option value="$PROJECT_DIR$/src/com/company/Board.java" />
         <option value="$PROJECT_DIR$/src/com/company/Thread.java" />
+        <option value="$PROJECT_DIR$/src/com/company/gui.form" />
         <option value="$PROJECT_DIR$/src/com/company/TextListener.java" />
         <option value="$PROJECT_DIR$/src/com/company/Monster.java" />
+        <option value="$PROJECT_DIR$/src/com/company/writeJLabel.java" />
+        <option value="$PROJECT_DIR$/src/com/company/writeJPaneText.java" />
+        <option value="$PROJECT_DIR$/src/com/company/writeJTextPane.java" />
         <option value="$PROJECT_DIR$/src/com/company/Stats.java" />
+        <option value="$PROJECT_DIR$/src/com/company/playerStats.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/readJTextField.java" />
+        <option value="$PROJECT_DIR$/src/com/company/createCharacter.java" />
       </list>
     </option>
   </component>
@@ -143,6 +182,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,7 +222,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -372,7 +411,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -384,7 +423,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4435058" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11510032" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.284375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -418,7 +457,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -427,47 +466,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/createCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2091">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Main#0;class#Main#0" expanded="false" />
-            <element signature="method#run#0;class#Main#0" expanded="false" />
-            <element signature="method#run#1;class#Main#0" expanded="false" />
+            <element signature="method#createNewCharacter#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#wantToCreateAnother#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#createCharacter#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#getAttributes#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#isSkillsPointsOverRange#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#setSpecialization#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#setName#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#setHealth#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#setAttackSkills#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#setMagicSkills#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#getString#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#getInt#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#showUpdatedStats#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#waitForAction#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#wait#0;class#createCharacter#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Monster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="1853">
-          <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#Monster#0" expanded="false" />
-            <element signature="method#LineOfSight#0;class#Monster#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="476">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Board#0" expanded="false" />
-            <element signature="method#buildBattleBoard#0;class#Board#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Hero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="272">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -477,9 +496,6 @@
           <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Main#0;class#Main#0" expanded="false" />
-            <element signature="method#run#0;class#Main#0" expanded="false" />
-            <element signature="method#run#1;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -489,7 +505,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="588" max-vertical-offset="1853">
           <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;class#Monster#0" expanded="false" />
             <element signature="method#LineOfSight#0;class#Monster#0" expanded="false" />
           </folding>
@@ -511,7 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="272">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -521,9 +535,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Main#0;class#Main#0" expanded="false" />
-            <element signature="method#run#0;class#Main#0" expanded="false" />
-            <element signature="method#run#1;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -533,7 +544,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1581">
           <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;class#Monster#0" expanded="false" />
             <element signature="method#LineOfSight#0;class#Monster#0" expanded="false" />
           </folding>
@@ -555,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="272">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -565,9 +574,6 @@
           <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Main#0;class#Main#0" expanded="false" />
-            <element signature="method#run#0;class#Main#0" expanded="false" />
-            <element signature="method#run#1;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -577,7 +583,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2329">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;class#Monster#0" expanded="false" />
             <element signature="method#LineOfSight#0;class#Monster#0" expanded="false" />
           </folding>
@@ -599,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="272">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,9 +613,6 @@
           <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Main#0;class#Main#0" expanded="false" />
-            <element signature="method#run#0;class#Main#0" expanded="false" />
-            <element signature="method#run#1;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -621,7 +622,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2329">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;class#Monster#0" expanded="false" />
             <element signature="method#LineOfSight#0;class#Monster#0" expanded="false" />
           </folding>
@@ -643,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="272">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,9 +652,6 @@
           <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Main#0;class#Main#0" expanded="false" />
-            <element signature="method#run#0;class#Main#0" expanded="false" />
-            <element signature="method#run#1;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -665,7 +661,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2363">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;class#Monster#0" expanded="false" />
             <element signature="method#LineOfSight#0;class#Monster#0" expanded="false" />
           </folding>
@@ -687,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="272">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,9 +691,6 @@
           <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Main#0;class#Main#0" expanded="false" />
-            <element signature="method#run#0;class#Main#0" expanded="false" />
-            <element signature="method#run#1;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -709,7 +700,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2431">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;class#Monster#0" expanded="false" />
             <element signature="method#LineOfSight#0;class#Monster#0" expanded="false" />
           </folding>
@@ -731,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,9 +730,6 @@
           <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Main#0;class#Main#0" expanded="false" />
-            <element signature="method#run#0;class#Main#0" expanded="false" />
-            <element signature="method#run#1;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -753,7 +739,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;class#Monster#0" expanded="false" />
             <element signature="method#LineOfSight#0;class#Monster#0" expanded="false" />
           </folding>
@@ -775,7 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,9 +769,6 @@
           <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Main#0;class#Main#0" expanded="false" />
-            <element signature="method#run#0;class#Main#0" expanded="false" />
-            <element signature="method#run#1;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -797,7 +778,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;class#Monster#0" expanded="false" />
             <element signature="method#LineOfSight#0;class#Monster#0" expanded="false" />
           </folding>
@@ -819,7 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,9 +808,6 @@
           <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Main#0;class#Main#0" expanded="false" />
-            <element signature="method#run#0;class#Main#0" expanded="false" />
-            <element signature="method#run#1;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -841,7 +817,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;class#Monster#0" expanded="false" />
             <element signature="method#LineOfSight#0;class#Monster#0" expanded="false" />
           </folding>
@@ -863,7 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,9 +847,6 @@
           <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Main#0;class#Main#0" expanded="false" />
-            <element signature="method#run#0;class#Main#0" expanded="false" />
-            <element signature="method#run#1;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -885,7 +856,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="867">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;class#Monster#0" expanded="false" />
             <element signature="method#LineOfSight#0;class#Monster#0" expanded="false" />
           </folding>
@@ -907,7 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="10792" max-vertical-offset="26418">
           <caret line="728" column="39" selection-start-line="728" selection-start-column="39" selection-end-line="728" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -920,26 +889,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Hero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="323">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.12948857" vertical-offset="0" max-vertical-offset="919">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/writeJLabel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/TextListener.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/writeJTextPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Monster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4446" max-vertical-offset="6868">
+          <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#Monster#0" expanded="false" />
+            <element signature="method#LineOfSight#0;class#Monster#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/readJTextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/playerStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1207">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
             <element signature="docComment;class#Board#0" expanded="false" />
             <element signature="method#buildBattleBoard#0;class#Board#0" expanded="false" />
@@ -947,35 +950,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Monster.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1283" max-vertical-offset="6834">
-          <caret line="117" column="21" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#Monster#0" expanded="false" />
-            <element signature="method#LineOfSight#0;class#Monster#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Stats.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/createCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5450902" vertical-offset="374" max-vertical-offset="3179">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.20987654" vertical-offset="0" max-vertical-offset="833">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Main#0;class#Main#0" expanded="false" />
-            <element signature="method#run#0;class#Main#0" expanded="false" />
-            <element signature="method#run#1;class#Main#0" expanded="false" />
+            <element signature="method#createNewCharacter#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#wantToCreateAnother#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#createCharacter#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#getAttributes#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#isSkillsPointsOverRange#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#setSpecialization#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#setName#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#setHealth#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#setAttackSkills#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#setMagicSkills#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#getString#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#getInt#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#showUpdatedStats#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#waitForAction#0;class#createCharacter#0" expanded="false" />
+            <element signature="method#wait#0;class#createCharacter#0" expanded="false" />
           </folding>
         </state>
       </provider>

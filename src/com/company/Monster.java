@@ -1,5 +1,4 @@
 package com.company;
-import java.lang.reflect.Array;
 import java.util.*;
 
 /**
@@ -109,11 +108,11 @@ public class Monster {
 
             if (myBoard.battleBoard[xPosition][yPosition]!='*'){
                 char enemy = myBoard.battleBoard[xPosition][yPosition];
-                System.out.println(Stats.players+"**");
+                System.out.println(playerStats.players+"**");
                 for (int o=0;o<myBoard.myMonsters.length;o++) {
-                    System.out.println(Stats.players+"***");
+                    System.out.println(playerStats.players+"***");
                     if (myBoard.myMonsters[o].charName == enemy) {
-                        System.out.println(Stats.players+"****");
+                        System.out.println(playerStats.players+"****");
                         fight(myBoard.myMonsters[o]);
                     }
                     if(this.alive){
@@ -222,6 +221,9 @@ public class Monster {
         }
         while (myBoard.battleBoard[xPosition][yPosition] != '*');
         myBoard.battleBoard[xPosition][yPosition] = charName;
+    }
+
+    public Monster (){
     }
 
     private void fight(Monster enemy){
