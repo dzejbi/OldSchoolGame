@@ -6,9 +6,10 @@ public class createCharacter{
     private readJTextField readConsole;
     private writeJTextPane writeTextPane;
     private String playerStatsToShow = "";
-    private playerStats playerStats = new playerStats();
+    private playerStats playerStats;
 
     public Monster createNewCharacter(){
+        playerStats = new playerStats();
         do {
             getAttributes();
         }
@@ -22,8 +23,6 @@ public class createCharacter{
 
     public boolean wantToCreateAnother(){
         writeTextPane.setText("\nCreate another character ?");
-
-        waitForAction();
         return readConsole.getText().equals("t");
     }
 
@@ -69,34 +68,31 @@ public class createCharacter{
     private void setName(){
         playerStatsToShow = "Name: ";
         showStats();
-        playerStats.name = getString();
-        showUpdatedStats();
+        while(playerStats.name.equals("")) {
+            playerStats.name = readConsole.getText();
+        }
+        showUpdatedStats(playerStats.name);
     }
 
     private void setHealth(){
         playerStatsToShow += "\nHealth: ";
         showStats();
         playerStats.health = getInt();
-        showUpdatedStats();
+        showUpdatedStats(playerStats.health);
     }
 
     private void setAttackSkills(){
         playerStatsToShow += "\nFighting skill: ";
         showStats();
         playerStats.skill_at_attack = getInt();
-        showUpdatedStats();
+        showUpdatedStats(playerStats.skill_at_attack);
     }
 
     private void setMagicSkills(){
         playerStatsToShow += "\nMagic skill: ";
         showStats();
         playerStats.skill_at_magic = getInt();
-        showUpdatedStats();
-    }
-
-    private String getString(){
-        waitForAction();
-        return readConsole.getText();
+        showUpdatedStats(playerStats.skill_at_magic);
     }
 
     private int getInt() {
@@ -105,7 +101,6 @@ public class createCharacter{
 
         while (!successfulParsing) {
             try {
-                waitForAction();
                 parsedInt = readConsole.tryToGetInt();
                 successfulParsing = true;
             } catch (NumberFormatException e) {
@@ -117,15 +112,14 @@ public class createCharacter{
         return parsedInt;
     }
 
-    private void showUpdatedStats(){
-        playerStatsToShow += readConsole.getText();
+    private void showUpdatedStats(String update){
+        playerStatsToShow += update;
         showStats();
     }
 
-    private void waitForAction() {
-        while (!readConsole.isActionPerformed()){
-            wait(100);
-        }
+    private void showUpdatedStats(int update){
+        playerStatsToShow += Integer.toString(update);
+        showStats();
     }
 
     private void wait(int milliseconds){
